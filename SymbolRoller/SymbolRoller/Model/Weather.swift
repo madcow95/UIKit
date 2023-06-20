@@ -8,9 +8,9 @@
 import Foundation
 
 class Weather {
-    let symbols: [String] = ["sun.min", "moon", "cloud", "wind", "snowflake"]
+    private let symbols: [String] = ["sun.min", "moon", "cloud", "wind", "snowflake"]
     
-    func changeWeather() -> String {
+    func getWeatherSymbol() -> String {
         guard let randomSymbol = symbols.randomElement() else {
             return ""
         }

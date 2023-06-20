@@ -30,8 +30,8 @@ class SymbolRollerViewController: UIViewController {
 
     @IBAction func buttonTapped(_ sender: Any) {
         let weather: Weather = Weather()
-        let randomWeather = weather.changeWeather()
-        changeWeather(symbol: randomWeather)
+        let randomSymbol = weather.getWeatherSymbol()
+        changeWeather(symbol: randomSymbol)
     }
     
     func changeWeather(symbol: String = "wind") {
