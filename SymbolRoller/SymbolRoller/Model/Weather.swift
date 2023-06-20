@@ -12,7 +12,7 @@ class Weather {
     
     func getWeatherSymbol() -> String {
         guard let randomSymbol = symbols.randomElement() else {
-            return ""
+            return "wind"
         }
         return randomSymbol
     }
