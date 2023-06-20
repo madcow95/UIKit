@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		CD9B49AB2A40627200CF9D28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9B49AA2A40627200CF9D28 /* AppDelegate.swift */; };
 		CD9B49AD2A40627200CF9D28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9B49AC2A40627200CF9D28 /* SceneDelegate.swift */; };
-		CD9B49AF2A40627200CF9D28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9B49AE2A40627200CF9D28 /* ViewController.swift */; };
+		CD9B49AF2A40627200CF9D28 /* SymbolRollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9B49AE2A40627200CF9D28 /* SymbolRollerViewController.swift */; };
 		CD9B49B22A40627200CF9D28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9B49B02A40627200CF9D28 /* Main.storyboard */; };
 		CD9B49B42A40627300CF9D28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9B49B32A40627300CF9D28 /* Assets.xcassets */; };
 		CD9B49B72A40627300CF9D28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9B49B52A40627300CF9D28 /* LaunchScreen.storyboard */; };
 		CD9B49C22A40627300CF9D28 /* SymbolRollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9B49C12A40627300CF9D28 /* SymbolRollerTests.swift */; };
 		CD9B49CC2A40627300CF9D28 /* SymbolRollerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9B49CB2A40627300CF9D28 /* SymbolRollerUITests.swift */; };
 		CD9B49CE2A40627300CF9D28 /* SymbolRollerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9B49CD2A40627300CF9D28 /* SymbolRollerUITestsLaunchTests.swift */; };
+		CD9B49DC2A4199FC00CF9D28 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9B49DB2A4199FC00CF9D28 /* Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 		CD9B49A72A40627200CF9D28 /* SymbolRoller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SymbolRoller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9B49AA2A40627200CF9D28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD9B49AC2A40627200CF9D28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CD9B49AE2A40627200CF9D28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD9B49AE2A40627200CF9D28 /* SymbolRollerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRollerViewController.swift; sourceTree = "<group>"; };
 		CD9B49B12A40627200CF9D28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD9B49B32A40627300CF9D28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD9B49B62A40627300CF9D28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		CD9B49C72A40627300CF9D28 /* SymbolRollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SymbolRollerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9B49CB2A40627300CF9D28 /* SymbolRollerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRollerUITests.swift; sourceTree = "<group>"; };
 		CD9B49CD2A40627300CF9D28 /* SymbolRollerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRollerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CD9B49DB2A4199FC00CF9D28 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +101,10 @@
 		CD9B49A92A40627200CF9D28 /* SymbolRoller */ = {
 			isa = PBXGroup;
 			children = (
+				CD9B49DA2A4199F200CF9D28 /* Model */,
 				CD9B49AA2A40627200CF9D28 /* AppDelegate.swift */,
 				CD9B49AC2A40627200CF9D28 /* SceneDelegate.swift */,
-				CD9B49AE2A40627200CF9D28 /* ViewController.swift */,
+				CD9B49AE2A40627200CF9D28 /* SymbolRollerViewController.swift */,
 				CD9B49B02A40627200CF9D28 /* Main.storyboard */,
 				CD9B49B32A40627300CF9D28 /* Assets.xcassets */,
 				CD9B49B52A40627300CF9D28 /* LaunchScreen.storyboard */,
@@ -125,6 +128,14 @@
 				CD9B49CD2A40627300CF9D28 /* SymbolRollerUITestsLaunchTests.swift */,
 			);
 			path = SymbolRollerUITests;
+			sourceTree = "<group>";
+		};
+		CD9B49DA2A4199F200CF9D28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD9B49DB2A4199FC00CF9D28 /* Weather.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD9B49AF2A40627200CF9D28 /* ViewController.swift in Sources */,
+				CD9B49DC2A4199FC00CF9D28 /* Weather.swift in Sources */,
+				CD9B49AF2A40627200CF9D28 /* SymbolRollerViewController.swift in Sources */,
 				CD9B49AB2A40627200CF9D28 /* AppDelegate.swift in Sources */,
 				CD9B49AD2A40627200CF9D28 /* SceneDelegate.swift in Sources */,
 			);
