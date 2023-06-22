@@ -7,7 +7,7 @@
 
 import Foundation
 
-class City {
+struct City {
     private let cities: [String] = [
         "Seoul",
         "Tokyo",

@@ -23,8 +23,8 @@ class WeatherViewController: UIViewController {
         let city: City = City()
         let weather: Weather = Weather()
         
-        let randomCity = city.getRandomCity()
-        let randomWeather = weather.getRandomWeather()
+        let randomCity: String = city.getRandomCity()
+        let randomWeather: String = weather.getRandomWeather()
         let randomTemperature: Int = Int.random(in: 10...20)
         
         cityLabel.text = randomCity

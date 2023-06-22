@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Weather {
+struct Weather {
     private let weathers: [String] = [
         "cloud.fill",
         "sun.max.fill",
