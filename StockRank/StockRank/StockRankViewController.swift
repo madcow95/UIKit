@@ -31,6 +31,7 @@ extension StockRankViewController: UICollectionViewDataSource {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "StockRankCollectionViewCell", for: indexPath) as? StockRankCollectionViewCell else {
             return UICollectionViewCell()
         }
+        
         cell.configure(stock: stock)
         return cell
     }
