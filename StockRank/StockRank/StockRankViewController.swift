@@ -28,6 +28,8 @@ extension StockRankViewController: UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let stock = stockList[indexPath.item]
+        
+        // 캐스팅
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "StockRankCollectionViewCell", for: indexPath) as? StockRankCollectionViewCell else {
             return UICollectionViewCell()
         }
