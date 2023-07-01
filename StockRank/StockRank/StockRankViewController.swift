@@ -18,8 +18,10 @@ class StockRankViewController: UIViewController {
         
         collectionView.dataSource = self
         collectionView.delegate = self
+        
     }
 }
+
 
 extension StockRankViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {

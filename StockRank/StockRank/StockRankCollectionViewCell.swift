@@ -14,7 +14,7 @@ class StockRankCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var companyNameLabel: UILabel!
     @IBOutlet weak var stockPriceLabel: UILabel!
     @IBOutlet weak var diffLabel: UILabel!
-    
+
     func configure(stock: StockModel) {
         rankLabel.text = "\(stock.rank)"
         companyIconImageView.image = UIImage(named: stock.imageName)
