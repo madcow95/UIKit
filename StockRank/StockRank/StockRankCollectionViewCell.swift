@@ -23,7 +23,7 @@ class StockRankCollectionViewCell: UICollectionViewCell {
         let convertedPrice = convertToCurrencyFormat(price: stock.price)
         stockPriceLabel.text = "\(convertedPrice) 원"
         
-        let diffLabelColor = stock.diff > 0 ? UIColor.red : UIColor.blue
+        let diffLabelColor = stock.diff > 0 ? UIColor.systemRed : UIColor.systemBlue
         diffLabel.text = "\(stock.diff)%"
         diffLabel.textColor = diffLabelColor
     }
