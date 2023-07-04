@@ -17,6 +17,7 @@
 		CD03BA2A2A52F8BD00A54F85 /* ChatListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD03BA292A52F8BD00A54F85 /* ChatListUITests.swift */; };
 		CD03BA2C2A52F8BD00A54F85 /* ChatListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD03BA2B2A52F8BD00A54F85 /* ChatListUITestsLaunchTests.swift */; };
 		CD03BA3A2A52F8FE00A54F85 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD03BA392A52F8FE00A54F85 /* Chat.swift */; };
+		CD03BA3C2A5442A400A54F85 /* ChatListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD03BA3B2A5442A400A54F85 /* ChatListCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		CD03BA292A52F8BD00A54F85 /* ChatListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListUITests.swift; sourceTree = "<group>"; };
 		CD03BA2B2A52F8BD00A54F85 /* ChatListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CD03BA392A52F8FE00A54F85 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		CD03BA3B2A5442A400A54F85 /* ChatListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				CD03BA0A2A52F8BC00A54F85 /* SceneDelegate.swift */,
 				CD03BA0C2A52F8BC00A54F85 /* ChatListViewController.swift */,
 				CD03BA0E2A52F8BC00A54F85 /* Main.storyboard */,
+				CD03BA3B2A5442A400A54F85 /* ChatListCollectionViewCell.swift */,
 				CD03BA112A52F8BD00A54F85 /* Assets.xcassets */,
 				CD03BA132A52F8BD00A54F85 /* LaunchScreen.storyboard */,
 				CD03BA162A52F8BD00A54F85 /* Info.plist */,
@@ -269,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD03BA3C2A5442A400A54F85 /* ChatListCollectionViewCell.swift in Sources */,
 				CD03BA0D2A52F8BC00A54F85 /* ChatListViewController.swift in Sources */,
 				CD03BA3A2A52F8FE00A54F85 /* Chat.swift in Sources */,
 				CD03BA092A52F8BC00A54F85 /* AppDelegate.swift in Sources */,

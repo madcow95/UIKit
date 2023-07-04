@@ -8,12 +8,30 @@
 import UIKit
 
 class ChatListViewController: UIViewController {
-
+    
+    let chatList: [Chat] = Chat.list
+    
+    @IBOutlet weak var collectionView: UICollectionView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        collectionView.dataSource = self
+        collectionView.delegate = self
+        
     }
-
-
 }
 
+extension ChatListViewController: UICollectionViewDataSource {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return chatList.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        return UICollectionViewCell()
+    }
+}
+
+extension ChatListViewController: UICollectionViewDelegateFlowLayout {
+    
+}
