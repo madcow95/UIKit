@@ -9,7 +9,7 @@ import UIKit
 
 class ChatListViewController: UIViewController {
     
-    let chatList: [Chat] = Chat.list
+    var chatList: [Chat] = Chat.list
     
     @IBOutlet weak var collectionView: UICollectionView!
     
@@ -19,6 +19,7 @@ class ChatListViewController: UIViewController {
         collectionView.dataSource = self
         collectionView.delegate = self
         
+        chatList.sort(by: { $0.date > $1.date })
     }
 }
 
@@ -28,10 +29,18 @@ extension ChatListViewController: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        return UICollectionViewCell()
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ChatListCollectionViewCell", for: indexPath) as? ChatListCollectionViewCell else {
+            return UICollectionViewCell()
+        }
+        
+        let chat = chatList[indexPath.item]
+        cell.configure(chat: chat)
+        return cell
     }
 }
 
 extension ChatListViewController: UICollectionViewDelegateFlowLayout {
-    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: collectionView.bounds.width, height: 100)
+    }
 }
