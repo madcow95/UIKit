@@ -16,6 +16,7 @@
 		CD03BA612A56E6A200A54F85 /* AppleFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD03BA602A56E6A200A54F85 /* AppleFrameworkTests.swift */; };
 		CD03BA6B2A56E6A200A54F85 /* AppleFrameworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD03BA6A2A56E6A200A54F85 /* AppleFrameworkUITests.swift */; };
 		CD03BA6D2A56E6A200A54F85 /* AppleFrameworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD03BA6C2A56E6A200A54F85 /* AppleFrameworkUITestsLaunchTests.swift */; };
+		CD03BA7B2A56E6F200A54F85 /* AppleFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD03BA7A2A56E6F200A54F85 /* AppleFramework.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CD03BA662A56E6A200A54F85 /* AppleFrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleFrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD03BA6A2A56E6A200A54F85 /* AppleFrameworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFrameworkUITests.swift; sourceTree = "<group>"; };
 		CD03BA6C2A56E6A200A54F85 /* AppleFrameworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFrameworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CD03BA7A2A56E6F200A54F85 /* AppleFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFramework.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		CD03BA482A56E6A100A54F85 /* AppleFramework */ = {
 			isa = PBXGroup;
 			children = (
+				CD03BA792A56E6E700A54F85 /* Model */,
 				CD03BA492A56E6A100A54F85 /* AppDelegate.swift */,
 				CD03BA4B2A56E6A100A54F85 /* SceneDelegate.swift */,
 				CD03BA4D2A56E6A100A54F85 /* ViewController.swift */,
@@ -125,6 +128,14 @@
 				CD03BA6C2A56E6A200A54F85 /* AppleFrameworkUITestsLaunchTests.swift */,
 			);
 			path = AppleFrameworkUITests;
+			sourceTree = "<group>";
+		};
+		CD03BA792A56E6E700A54F85 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD03BA7A2A56E6F200A54F85 /* AppleFramework.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 				CD03BA4E2A56E6A100A54F85 /* ViewController.swift in Sources */,
 				CD03BA4A2A56E6A100A54F85 /* AppDelegate.swift in Sources */,
 				CD03BA4C2A56E6A100A54F85 /* SceneDelegate.swift in Sources */,
+				CD03BA7B2A56E6F200A54F85 /* AppleFramework.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
