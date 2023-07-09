@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Framework List View Controller-->
+        <!--🌞Apple Framework-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController storyboardIdentifier="FrameworkListViewController" id="BYZ-38-t0r" customClass="FrameworkListViewController" customModule="AppleFramework" customModuleProvider="target" sceneMemberID="viewController">
@@ -76,11 +76,30 @@ CoreML</string>
                             <constraint firstItem="Ddf-5g-w6s" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="eZg-pV-aW0"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="🌞Apple Framework" id="BUe-m4-Ehm"/>
                     <connections>
                         <outlet property="collectionView" destination="Ddf-5g-w6s" id="VwC-hk-fJH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1061.8320610687022" y="3.5211267605633805"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="sZY-ss-Uwy">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jvd-dA-XUe" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="2gt-21-KA6">
+                        <rect key="frame" x="0.0" y="59" width="393" height="104.33333333333334"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="g44-m9-Z9p"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tb9-eF-Pyi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="135.1145038167939" y="3.5211267605633805"/>
         </scene>
