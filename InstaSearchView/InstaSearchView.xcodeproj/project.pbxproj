@@ -17,6 +17,8 @@
 		CD03BAAC2A5ADDF100A54F85 /* InstaSearchViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD03BAAB2A5ADDF100A54F85 /* InstaSearchViewUITests.swift */; };
 		CD03BAAE2A5ADDF100A54F85 /* InstaSearchViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD03BAAD2A5ADDF100A54F85 /* InstaSearchViewUITestsLaunchTests.swift */; };
 		CD03BABB2A5ADF9400A54F85 /* ResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD03BABA2A5ADF9400A54F85 /* ResultCell.swift */; };
+		CD03BABD2A5D8B1A00A54F85 /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD03BABC2A5D8B1A00A54F85 /* NewsFeedViewController.swift */; };
+		CD03BABF2A5D8BC600A54F85 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD03BABE2A5D8BC600A54F85 /* FeedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		CD03BAAB2A5ADDF100A54F85 /* InstaSearchViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaSearchViewUITests.swift; sourceTree = "<group>"; };
 		CD03BAAD2A5ADDF100A54F85 /* InstaSearchViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaSearchViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CD03BABA2A5ADF9400A54F85 /* ResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCell.swift; sourceTree = "<group>"; };
+		CD03BABC2A5D8B1A00A54F85 /* NewsFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedViewController.swift; sourceTree = "<group>"; };
+		CD03BABE2A5D8BC600A54F85 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				CD03BA8A2A5ADDF000A54F85 /* AppDelegate.swift */,
 				CD03BA8C2A5ADDF000A54F85 /* SceneDelegate.swift */,
 				CD03BA8E2A5ADDF000A54F85 /* SearchViewController.swift */,
+				CD03BABC2A5D8B1A00A54F85 /* NewsFeedViewController.swift */,
+				CD03BABE2A5D8BC600A54F85 /* FeedCell.swift */,
 				CD03BA902A5ADDF000A54F85 /* Main.storyboard */,
 				CD03BABA2A5ADF9400A54F85 /* ResultCell.swift */,
 				CD03BA932A5ADDF100A54F85 /* Assets.xcassets */,
@@ -265,6 +271,8 @@
 				CD03BA8B2A5ADDF000A54F85 /* AppDelegate.swift in Sources */,
 				CD03BABB2A5ADF9400A54F85 /* ResultCell.swift in Sources */,
 				CD03BA8D2A5ADDF000A54F85 /* SceneDelegate.swift in Sources */,
+				CD03BABD2A5D8B1A00A54F85 /* NewsFeedViewController.swift in Sources */,
+				CD03BABF2A5D8BC600A54F85 /* FeedCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
