@@ -14,7 +14,6 @@ class NewsFeedViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
         collectionView.delegate = self
         collectionView.dataSource = self
         
@@ -44,5 +43,10 @@ extension NewsFeedViewController: UICollectionViewDataSource {
 }
 
 extension NewsFeedViewController: UICollectionViewDelegateFlowLayout {
-    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let width = collectionView.bounds.width
+        let height = width * 3/4 + 60
+        
+        return CGSize(width: width, height: height)
+    }
 }
