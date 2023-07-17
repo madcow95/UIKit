@@ -38,8 +38,6 @@ extension NewsFeedViewController: UICollectionViewDataSource {
         cell.configure(imageName: image)
         return cell
     }
-    
-    
 }
 
 extension NewsFeedViewController: UICollectionViewDelegateFlowLayout {
